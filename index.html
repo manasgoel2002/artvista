@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArtVista - Virtual Art Gallery</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Include Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">ArtVista</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Artists</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Artworks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Exhibitions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Store</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container mx-auto my-8">
+    <h1 class="text-3xl font-bold text-center">Welcome to ArtVista</h1>
+    <p class="text-lg text-center">Explore and appreciate a wide range of artworks from different artists and genres.</p>
+    <!-- Artwork Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-8">
+      <div class="group relative overflow-hidden rounded-md shadow-lg transition duration-500 ease-in-out transform hover:scale-105">
+        <img class="w-full h-64 object-cover" src="artwork1.jpg" alt="Artwork 1">
+        <div class="p-4">
+          <h5 class="text-lg font-bold mb-2">When Will You Marry?</h5>
+          <p class="text-sm">Paul Gauguin</p>
+          <a href="https://en.wikipedia.org/wiki/When_Will_You_Marry%3F" class="btn btn-primary mt-4">View Details</a>
+        </div>
+      </div>
+      <div class="group relative overflow-hidden rounded-md shadow-lg transition duration-500 ease-in-out transform hover:scale-105">
+        <img class="w-full h-64 object-cover" src="artwork2.webp" alt="Artwork 2">
+        <div class="p-4">
+          <h5 class="text-lg font-bold mb-2">Glow of Hope</h5>
+          <p class="text-sm">Sawlaram Lakshman Haldankar</p>
+          <a href="https://en.wikipedia.org/wiki/Glow_of_Hope" class="btn btn-primary mt-4">View Details</a>
+        </div>
+      </div>
+      <div class="group relative overflow-hidden rounded-md shadow-lg transition duration-500 ease-in-out transform hover:scale-105">
+        <img class="w-full h-64 object-cover" src="artwork3.jpeg" alt="Artwork 3">
+        <div class="p-4">
+          <h5 class="text-lg font-bold mb-2">Shakuntala</h5>
+          <p class="text-sm">Raja Ravi Varma</p>
+          <a href="https://en.wikipedia.org/wiki/Shakuntala_(Raja_Ravi_Varma)" class="btn btn-primary mt-4">View Details</a>
+        </div>
+      </div>
+      <div class="group relative overflow-hidden rounded-md shadow-lg transition duration-500 ease-in-out transform hover:scale-105">
+        <img class="w-full h-64 object-cover" src="artwork4.jpeg" alt="Artwork 4">
+        <div class="p-4">
+          <h5 class="text-lg font-bold mb-2">Days of Glory</h5>
+          <p class="text-sm">Satish Gujral</p>
+          <a href="https://www.dailypioneer.com/2020/vivacity/days-of-glory.html" class="btn btn-primary mt-4">View Details</a>
+        </div>
+      </div>
+      <div class="group relative overflow-hidden rounded-md shadow-lg transition duration-500 ease-in-out transform hover:scale-105">
+        <img class="w-full h-64 object-cover" src="artwork5.jpeg" alt="Artwork 5">
+        <div class="p-4">
+          <h5 class="text-lg font-bold mb-2">Brahmacharis</h5>
+          <p class="text-sm">Amrita Sher-Gil</p>
+          <a href="https://www.indianculture.gov.in/museum-paintings/brahmacharis" class="btn btn-primary mt-4">View Details</a>
+        </div>
+      </div>
+      <div class="group relative overflow-hidden rounded-md shadow-lg transition duration-500 ease-in-out transform hover:scale-105">
+        <img class="w-full h-64 object-cover" src="artwork6.jpeg" alt="Artwork 6">
+        <div class="p-4">
+          <h5 class="text-lg font-bold mb-2">Krishna Spring</h5>
+          <p class="text-sm">Nicholas Roerich</p>
+          <a href="https://www.wikiart.org/en/nicholas-roerich/krishna-spring-in-kulu-1930" class="btn btn-primary mt-4">View Details</a>
+        </div>
+      </div>
+      <div class="group relative overflow-hidden rounded-md shadow-lg transition duration-500 ease-in-out transform hover:scale-105">
+        <img class="w-full h-64 object-cover" src="artwork7.jpeg" alt="Artwork 7">
+        <div class="p-4">
+          <h5 class="text-lg font-bold mb-2">Horses</h5>
+          <p class="text-sm">M. F. Husain</p>
+          <a href="https://en.wikipedia.org/wiki/M._F._Husain" class="btn btn-primary mt-4">View Details</a>
+        </div>
+      </div>
+      <div class="group relative overflow-hidden rounded-md shadow-lg transition duration-500 ease-in-out transform hover:scale-105">
+        <img class="w-full h-64 object-cover" src="artwork8.jpeg" alt="Artwork 8">
+        <div class="p-4">
+          <h5 class="text-lg font-bold mb-2">Ankuran</h5>
+          <p class="text-sm">S. H. Raza</p>
+          <a href="https://en.wikipedia.org/wiki/S._H._Raza" class="btn btn-primary mt-4">View Details</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Include Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
